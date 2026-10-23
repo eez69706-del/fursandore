@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مدارس الفرسان | بطولة الأبطال</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<!-- Splash -->
+<div class="splash" id="splash">
+  <div class="splash-inner">
+    <div class="splash-logo">🏆</div>
+    <h1 class="splash-title">مدارس الفرسان</h1>
+    <p class="splash-sub">بطولة الأبطال</p>
+    <div class="splash-bar"><div></div></div>
+  </div>
+</div>
+
+<!-- Live Badge -->
+<div class="live-badge" id="liveBadge">🔴 LIVE</div>
+
+<!-- App Root -->
+<div id="app" aria-live="polite">
+  <div class="boot"><span class="loader"></span><span>جارٍ تجهيز مساحتك…</span></div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- Modals -->
+<div id="modal-root"></div>
+
+<!-- Scripts (بالترتيب) -->
+<script src="/js/api.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/render.js"></script>
+<script src="/js/app.js"></script>
+
+</body>
+</html>

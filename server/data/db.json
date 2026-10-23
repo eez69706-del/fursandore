@@ -1,0 +1,52 @@
+{
+  "teams": [
+    {
+      "id": "gVgb3PppUz",
+      "name": "شصي",
+      "color": "#a05e1e",
+      "emoji": "⚽",
+      "createdAt": 1792772123639
+    },
+    {
+      "id": "8EDfJN0j15",
+      "name": "شصيشصيشي",
+      "color": "#12c48b",
+      "emoji": "🦅",
+      "createdAt": 1792772127280
+    }
+  ],
+  "tournament": {
+    "id": "bfoAReTOO5",
+    "rounds": [
+      [
+        {
+          "id": "Q8OC6CCP53",
+          "a": {
+            "id": "8EDfJN0j15",
+            "name": "شصيشصيشي"
+          },
+          "b": {
+            "id": "gVgb3PppUz",
+            "name": "شصي"
+          },
+          "scoreA": null,
+          "scoreB": null,
+          "penA": null,
+          "penB": null,
+          "winner": null,
+          "date": null,
+          "motm": null
+        }
+      ]
+    ],
+    "champion": null,
+    "createdAt": 1792772155760
+  },
+  "history": [],
+  "liveMatches": {},
+  "settings": {
+    "schoolName": "مدارس الفرسان",
+    "tournamentName": "بطولة الأبطال",
+    "adminPassword": "fursan2025"
+  }
+}
