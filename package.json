@@ -1,0 +1,1 @@
+{ "name": "fursan-league", "version": "1.0.0", "description": "Fursan League tournament manager", "license": "MIT", "engines": { "node": ">=16" }, "private": true, "scripts": { "start": "node server.js" } }
